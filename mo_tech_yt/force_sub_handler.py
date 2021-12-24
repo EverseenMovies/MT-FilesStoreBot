@@ -20,7 +20,7 @@ async def handle_force_sub(bot, cmd):
     except UserNotParticipant:
         await bot.send_message(
             chat_id=cmd.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**\n\n**Files വേണക്കിൽ അത്യം ഞങ്ങളുടെ Update Channelil ജോയിൻ ചെയ്യണം...!**",
+            text="**Please Join My Updates Channel to use this Bot!**\n\n**Files  Update Channelil ...!**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
