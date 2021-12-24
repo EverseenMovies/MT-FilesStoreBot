@@ -41,7 +41,7 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 	ABOUT_DEV_TEXT = f"""
 🧑🏻‍ **Developer:** @EverseenMovies
 
-👨‍💻 **Editing:** @EverseenMoviez
+👨‍💻 **Editing:** @EverseenMovies
 
 🗣️ **Any Doubt:** @Everseen_Movies
 
