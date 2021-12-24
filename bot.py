@@ -1,4 +1,4 @@
-# (c) @MRK_YT
+# (c) @EverseenMovies
 
 import os
 import asyncio
@@ -49,12 +49,10 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("👩‍👩‍👦‍👦Group", url="https://t.me/Mo_Tech_Group"),
-                        InlineKeyboardButton("🔊Channel", url="https://t.me/Mo_Tech_YT")
+                        InlineKeyboardButton("👩‍👩‍👦‍👦Group", url="https://t.me/Everseen_Movies"),
+                        InlineKeyboardButton("🔊Channel", url="https://t.me/EverseenMovies")
                     ],
-                    [
-                        InlineKeyboardButton("💻 Tutorial Video 💻", url="https://youtu.be/RPs9vz_neXg")
-                    ],
+                    
                     [
                         InlineKeyboardButton("🤖About Bot", callback_data="aboutbot"),
                         InlineKeyboardButton("👨‍💼About Me", callback_data="aboutdevs")
@@ -114,14 +112,14 @@ async def main(bot: Client, message: Message):
             await forwarded_msg.reply_text(
                 f"#PRIVATE_FILE:\n\n[{message.from_user.first_name}](tg://user?id={message.from_user.id}) Got File Link!",
                 parse_mode="Markdown", disable_web_page_preview=True)
-            share_link = f"https://t.me/{Config.BOT_USERNAME}?start=MRK_YT_{file_er_id}"
+            share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=ESM_FileShare_{file_er_id}"
             await editable.edit(
                 f"**Your File Stored in my Database!**\n\nHere is the Permanent Link of your file: {share_link} \n\nJust Click the link to get your file!",
                 parse_mode="Markdown",
                 reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton("♻️Open Link♻️", url=share_link)],
-                     [InlineKeyboardButton("🔊Channel", url="https://t.me/Mo_Tech_Yt"),
-                      InlineKeyboardButton("👨‍💼Group", url="https://t.me/Mo_Tech_Group")]]
+                     [InlineKeyboardButton("🔊Channel", url="https://t.me/EverseenMovies"),
+                      InlineKeyboardButton("👨‍💼Group", url="https://t.me/Everseen_Movies")]]
                 ),
                 disable_web_page_preview=True
             )
@@ -162,7 +160,7 @@ async def main(bot: Client, message: Message):
         try:
             forwarded_msg = await message.forward(Config.DB_CHANNEL)
             file_er_id = forwarded_msg.message_id
-            share_link = f"https://t.me/{Config.BOT_USERNAME}?start=MRK_YT_{file_er_id}"
+            share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=ESM_FileShare_{file_er_id}"
             CH_edit = await bot.edit_message_reply_markup(message.chat.id, message.message_id,
                                                           reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(
                                                               "Get Sharable Stored Link", url=share_link)]]))
@@ -305,7 +303,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/MoTechYT/MT-FilesStoreBot")
+                                             url="https://github.com/EverseenMovies/MT-FilesStoreBot")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -323,7 +321,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/MoTechYT/MT-FilesStoreBot")
+                                             url="https://github.com/EverseenMovies/MT-FilesStoreBot")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -340,12 +338,10 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("👩‍👩‍👦‍👦Group", url="https://t.me/Mo_Tech_Group"),
-                        InlineKeyboardButton("🔊Channel", url="https://t.me/Mo_Tech_YT")
+                        InlineKeyboardButton("👩‍👩‍👦‍👦Group", url="https://t.me/Everseen_Movies"),
+                        InlineKeyboardButton("🔊Channel", url="https://t.me/EverseenMovies")
                     ],
-                    [
-                        InlineKeyboardButton("💻 Tutorial Video 💻", url="https://youtu.be/RPs9vz_neXg")
-                    ],
+                    
                     [
                         InlineKeyboardButton("🤖About Bot", callback_data="aboutbot"),
                         InlineKeyboardButton("👨‍💼About Me", callback_data="aboutdevs")
@@ -383,7 +379,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/Mo_Tech_Group).",
+                    text="Something went Wrong. Contact my [Support Group](https://t.me/Everseen_Movies).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -395,12 +391,10 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("👩‍👩‍👦‍👦Group", url="https://t.me/Mo_Tech_Group"),
-                        InlineKeyboardButton("🔊Channel", url="https://t.me/Mo_Tech_YT")
+                        InlineKeyboardButton("👩‍👩‍👦‍👦Group", url="https://t.me/EverseenMovies"),
+                        InlineKeyboardButton("🔊Channel", url="https://t.me/Everseen_Movies")
                     ],
-                    [
-                        InlineKeyboardButton("💻 Tutorial Video 💻", url="https://youtu.be/RPs9vz_neXg")
-                    ],
+                 
                     [
                         InlineKeyboardButton("🤖About Bot", callback_data="aboutbot"),
                         InlineKeyboardButton("👨‍💼About Me", callback_data="aboutdevs")
