@@ -1,4 +1,4 @@
-# (c) @MRK_YT
+# (c) @EverseenMovies
 
 import os
 
@@ -30,34 +30,30 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 📡 **Hosted on:** [Heroku](https://heroku.com)
 
-🧑🏻‍ **Developer:** @AbirHasan2005
+🧑🏻‍ **Developer:** @EverseenMovies
 
-👨‍💻 **Editing:** @Mrk_YT
+👨‍💻 **Editing:** @EverseenMovies
 
-📺 **Support:** [YouTube Channel](https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ)
+🗣️ **Any Doubt:** @Everseen_Movies
 
-🗣️ **Any Doubt:** @Mo_Tech_Group
-
-📢 **Updates Channel:** [Discovery Projects](https://t.me/Mo_Tech_YT)
+📢 **Updates Channel:** [Discovery Projects](https://t.me/EverseenMovies)
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍ **Developer:** @AbirHasan2005
+🧑🏻‍ **Developer:** @EverseenMovies
 
-💻 **Developer Details:** [Clcik Here](https://github.com/MoTechYT/MT-FilesStoreBot/blob/main/README.md)
+👨‍💻 **Editing:** @EverseenMoviez
 
-👨‍💻 **Editing:** @Mrk_YT
-
-🗣️ **Any Doubt:** @Mo_Tech_Group
+🗣️ **Any Doubt:** @Everseen_Movies
 
 📺 **Support :** [YouTube Channel](https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ)
 
-📢 **Updates Channel:** [Discovery Projects](https://t.me/Mo_Tech_YT)
+📢 **Updates Channel:** [Discovery Projects](https://t.me/Everseen_Movies)
 
 Donate Now (coming soon)
 """
 	HOME_TEXT = """
-**👋Hi**, [{}](tg://user?id={})\n\n**This is Permanent** **MT FileStoreBot**.
+**👋Hi**, [{}](tg://user?id={})\n\n**This is Permanent** **ESM FileShare**.
 
-**Send me any file I will give you a permanent Sharable Link. I Support Channel Also! Check About Bot Button**.
+**Send me any file I will give you a permanent Sharable Link. I Support Channel Also! Check About Bot Button.Don't send any copyright content until the bot is Stopped by @EverseenMovies**.
 """
 
