@@ -45,8 +45,6 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 🗣️ **Any Doubt:** @Everseen_Movies
 
-📺 **Support :** [YouTube Channel](https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ)
-
 📢 **Updates Channel:** [Discovery Projects](https://t.me/Everseen_Movies)
 
 Donate Now (coming soon)
