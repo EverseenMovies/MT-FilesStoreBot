@@ -1,4 +1,4 @@
-# (c) @MRK_YT
+# (c) @EverseenMovies
 
 import datetime
 import motor.motor_asyncio
