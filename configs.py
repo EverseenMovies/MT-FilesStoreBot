@@ -44,8 +44,8 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 Donate Now (coming soon)
 """
 	HOME_TEXT = """
-**👋Hi**, [{}](tg://user?id={})\n\n**This is Permanent** **ESM FileShare**.
+**👋Hi**, [{}](tg://user?id={})\n\n**This is Permanent** **ESM FileShare Bot**.
 
-**Send me any file I will give you a permanent Sharable Link. I Support Channel Also! Check About Bot Button.Don't send any copyright content until the bot is Stopped by @EverseenMovies**.
+**Send me any file I will give you a permanent Sharable Link.It was Created by Our Channel @EverseenMovies purpose Only.I Support Channel Also! Check About Bot Button.Don't send any copyright content until the bot is Stopped by @EverseenMovies**.
 """
 
