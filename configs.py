@@ -30,7 +30,7 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 🗣️ **Any Doubt:** @Everseen_Movies
 
-📢 **Updates Channel:** [Discovery Projects](https://t.me/EverseenMovies)
+📢 **Updates Channel:** [Discovery Projects](https://t.me/EverseenMovies.http://t.me/ESMHollywood)
 """
 	ABOUT_DEV_TEXT = f"""
 🧑🏻‍ **Developer:** @EverseenMovies
